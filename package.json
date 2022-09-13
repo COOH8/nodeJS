@@ -1,0 +1,25 @@
+{
+  "name": "nodeJS",
+  "version": "1.0.0",
+  "description": "学习node.js的代码",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COOH8/nodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COOH8/nodeJS/issues"
+  },
+  "homepage": "https://github.com/COOH8/nodeJS#readme"
+}

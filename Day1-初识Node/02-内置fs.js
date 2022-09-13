@@ -1,7 +1,8 @@
 //读取文件
 (function(){
     let fs = require('fs')
-    fs.readFile('./1.txt',(err,data)=>{
+    let path = require('path')
+    fs.readFile(path.join(__dirname,'/1.txt'),(err,data)=>{
         console.log(data.toString(),err); 
     })
 })();
